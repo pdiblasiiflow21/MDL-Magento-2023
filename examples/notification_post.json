@@ -1,0 +1,22 @@
+{
+    "storeId": "569cb42fa9c8d4d3cbd16464",
+    "totalOrders": 3,
+    "ordersId": [
+        "638850516599-01",
+        "638580224563-01",
+        "638583332499-01"
+    ],
+    "Shipments": [{
+            "orderId": "638850516599-01",
+            "packageId": "1"
+        },
+        {
+            "orderId": "638580224563-01",
+            "packageId": "0"
+        },
+        {
+            "orderId": "638583332499-01",
+            "packageId": "0"
+        }
+    ]
+}

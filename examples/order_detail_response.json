@@ -1,0 +1,46 @@
+{
+    "account": {
+        "accountId": "OCASUCA"
+    },
+    "order": {
+        "orderId": "603523293325-01",
+        "lastname": "PO",
+        "name": "SEBASTIAN",
+        "documentType": "dni",
+        "document": "28933444",
+        "email": "4f595f53d3f848249d1b5c0abca6aea2@ct.vtex.com.br",
+        "phone": "+5411 XXXXXXX",
+        "packageId": "1",
+        "address": {
+            "street": "Thames",
+            "number": "2215",
+            "addressComplement": null,
+            "postalCode": "1425",
+            "city": "Ciudad Autónoma de Buenos Aires",
+            "state": "Ciudad Autónoma de Buenos Aires",
+            "neighborhood_name": "El Carmen",
+            "receiverName": "SEBASTIAN PO",
+            "comments": null,
+            "dockId": "OCASUCA"
+        },
+        "value": "32200",
+        "tax": "",
+        "startDateUtc": "2016-01-29T10:30:00+00:00",
+        "endDateUtc": "2016-01-30T10:30:00+00:00"
+    },
+    "items": [{
+        "productId": "ZRF3455",
+        "name": "Produto Único Sku Unico",
+        "cubicweight": 25,
+        "weight": 10000,
+        "height": 100,
+        "width": 100,
+        "length": 15,
+        "quantity": 5,
+        "price": 3000,
+        "tax": 0
+    }],
+    "_id": {
+        "$oid": "56a107c744f446e66827f537"
+    }
+}

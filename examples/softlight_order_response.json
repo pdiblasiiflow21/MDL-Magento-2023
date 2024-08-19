@@ -1,0 +1,13 @@
+{
+    "code": 201,
+    "success": true,
+    "message": "Se ha creado con éxito la Orden #1230",
+    "results": {
+        "order_id": "1230",
+        "shippings": [{
+            "order_id": "1230",
+            "shipment_id": "T00000000098",
+            "print_url": "http://test-api.iflow21.com/api/order/print/436364/T00000000098.pdf"
+        }]
+    }
+}

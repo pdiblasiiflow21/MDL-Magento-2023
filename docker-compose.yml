@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+
+  iflowdb:
+    image: mongo
+    volumes:
+      - dev-mongo:/data/db
+      - ./db-data:/docker-entrypoint-initdb.d
+    ports:
+      - 27017:27017
+volumes:  
+  dev-mongo:

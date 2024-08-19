@@ -1,0 +1,80 @@
+extends layout
+
+block content
+  div(class="card text-center")
+    h1= title
+    h5 Welcome to #{title}
+
+    h2 Summary
+
+  div(class="container" style="margin-top: 50px")
+    h2 Stores
+    div(class="container")
+      tr
+        th idx
+        th order
+      each val, idx in stores
+        div
+          h4 STORE ##{idx} - STORE ID #{val.storeId}
+          div(class="container" style="margin-bottom: 34px")
+            tr
+              td= val
+        
+          div(class="container")
+            table(class='table')
+              h4 Notifications
+              table(class='table')
+                tr
+                  th idx
+                  th order
+                each n, idx in val.notifications
+                  tr           
+                    th(scope='row')= idx
+                    td= n
+
+          div(class="container")
+            table(class='table')
+              h4 Orders
+              table(class='table')
+                tr
+                  th idx
+                  th order
+                each o, idx in val.orders
+                  tr
+                    th(scope='row')= idx
+                    td= o
+
+          div(class="container" style="margin-bottom: 50px")
+            table(class='table')
+              h4 Trackings
+              table(class='table')
+                tr
+                  th idx
+                  th order
+                each q, idx in val.trackings
+                  tr
+                    th(scope='row')= idx
+                    td= q
+
+
+  div(class="container" style="margin-bottom: 34px")
+    h3 All Notifications
+    table(class='table')
+      tr
+        th idx
+        th order
+      each val, idx in notifications
+        tr
+          th(scope='row')= idx
+          td= val
+
+  div(class="container")
+    h3 All Orders
+    table(class='table')
+      tr
+        th idx
+        th order
+      each val, idx in orders
+        tr
+          th(scope='row')= idx
+          td= val

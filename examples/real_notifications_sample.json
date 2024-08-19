@@ -1,0 +1,14 @@
+{
+    "storeId": "5b69f773e4b0b7fef343c636",
+    "totalOrders": 1,
+    "ordersId": [
+      "1058712992863-01"
+    ],
+    "Shipments":
+    [
+      {
+        "orderId": "1058712992863-01",
+        "packageId": "1"
+      }
+    ]
+}

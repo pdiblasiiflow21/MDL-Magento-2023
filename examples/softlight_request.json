@@ -1,0 +1,39 @@
+{
+    "order_id": "1230",
+    "shipments": [{
+        "items_value": 8000,
+        "shipping_cost": 300,
+        "width": 150,
+        "height": 15,
+        "length": 200,
+        "weight": 3000,
+        "items": [{
+            "item": "TV Philips 29'",
+            "sku": 313123,
+            "quantity": "1"
+            },
+            {
+                "item": "Celu Motorola",
+                "sku": 23111,
+                "quantity": "1"
+            }
+        ]
+    }],
+    "receiver": {
+        "first_name": "Paton",
+        "last_name": "Bauza",
+        "receiver_name": "Sergio Denis",
+        "receiver_phone": "024566234",
+        "email": "test123@gmail.com",
+        "address": {
+            "street_name": "Calle 62",
+            "street_number": "1233",
+            "between_1": "Calle 3",
+            "between_2": "Calle 4",
+            "other_info": null,
+            "neighborhood_name": "VILLA ELISA",
+            "zip_code": "1900",
+            "city": "LA PLATA"
+        }
+    }
+}

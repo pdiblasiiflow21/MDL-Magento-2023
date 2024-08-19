@@ -1,0 +1,21 @@
+{
+    "zip_code": "1425",
+    "province": "Cordoba",
+    "packages": [
+        {
+            "orderId": "638850516599-01",
+            "packageId": "1"
+        },
+        {
+            "orderId": "638850516599-01",
+            "packageId": "1"
+        },
+        {
+            "orderId": "638850516599-01",
+            "packageId": "1"
+        }
+    ],
+    "delivery_mode": "1",
+    "softLightUser": "cliente_test",
+    "softlightPassword": "123456"
+}

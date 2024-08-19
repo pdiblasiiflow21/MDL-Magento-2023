@@ -1,0 +1,41 @@
+{
+  "name": "iflow",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "NODE_ENV=testing mocha --trace-warnings ./test/* --exit --timeout 5000 && yarn lint-fix",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "~1.17.1",
+    "chai": "^4.2.0",
+    "console-stamp": "^0.2.6",
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.3.0",
+    "debug": "~2.6.3",
+    "dotenv": "^8.2.0",
+    "express": "~4.15.2",
+    "express-session": "^1.15.6",
+    "hr.mocha": "^0.2.0",
+    "jade": "~1.11.0",
+    "lint": "^0.7.0",
+    "lint-fix": "^0.24.0",
+    "mongoose": "^4.13.2",
+    "morgan": "~1.8.1",
+    "nock": "^13.0.3",
+    "pug": "^3.0.0",
+    "serve-favicon": "~2.4.2",
+    "standard": "^14.3.4",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {}
+}

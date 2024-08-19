@@ -1,0 +1,73 @@
+{
+    "account": {
+      "accountId": "LYRACONS-IFLOW-DELIVERY"
+    },
+    "order": {
+      "orderId": "1060892669944-01",
+      "packageId": "0",
+      "lastname": "Senosiain",
+      "name": "Alvaro",
+      "documentType": "dni",
+      "document": "23653265",
+      "address": {
+        "street": "godoy cruz",
+        "number": "202",
+        "addressComplement": null,
+        "postalCode": "5500",
+        "city": "Ciudad autónoma de Buenos Aires",
+        "state": "Ciudad autónoma de Buenos Aires",
+        "receiverName": "Alvaro Senosiain",
+        "comments": null,
+        "dockId": "General"
+      },
+      "value": "133200",
+      "tax": "",
+      "startDateUtc": null,
+      "lastMessage": null,
+      "courierName": "LYRACONS-IFLOW-DELIVERY",
+      "email": "48c22dc1f2674401a053933a403c1e60@ct.vtex.com.br",
+      "phone": "+541112345678",
+      "branch": null
+    },
+    "items": [
+      {
+        "productId": "123123123",
+        "name": "Cebolla Blanca Blanca",
+        "cubicweight": 0,
+        "weight": 1,
+        "height": 1,
+        "width": 1,
+        "lenght": 1,
+        "quantity": 5,
+        "price": 10000,
+        "tax": 1000
+      },
+      {
+        "productId": "10010411A",
+        "name": "Producto Test VTEX 4 Chris S",
+        "cubicweight": 0,
+        "weight": 1,
+        "height": 1,
+        "width": 1,
+        "lenght": 1,
+        "quantity": 4,
+        "price": 16000,
+        "tax": 3200
+      },
+      {
+        "productId": "10010211A",
+        "name": "Producto Test VTEX 2 Chris M",
+        "cubicweight": 0,
+        "weight": 1,
+        "height": 1,
+        "width": 1,
+        "lenght": 1,
+        "quantity": 1,
+        "price": 12000,
+        "tax": 2400
+      }
+    ],
+    "_id": {
+      "$oid": "5f5a6455e39dfa5787a27a6e"
+    }
+  }

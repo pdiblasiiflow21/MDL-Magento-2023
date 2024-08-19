@@ -1,0 +1,23 @@
+body {
+  padding: 10px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  background: rgba(150,150,150,.5);
+  padding: 2px 5px;
+}
+
+li {
+  list-style-type: none;
+  background: rgba(230,230,230,.5);
+  padding: 2px 5px;
+}
+
+li:nth-child(odd) {
+  background: rgba(200,200,200,.5);
+}
